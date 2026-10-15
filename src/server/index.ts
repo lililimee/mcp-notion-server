@@ -1,4 +1,3 @@
-```typescript
 /**
  * MCP server setup and request handling
  * Supports stdio and stateless Streamable HTTP with OAuth 2.0 authorization code + PKCE.
@@ -617,4 +616,3 @@ export async function startServer(
     console.error(`Enabled tools: ${enabledToolsSet.size || "all"}`);
   });
 }
-```
